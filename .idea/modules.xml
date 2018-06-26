@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RpcData.iml" filepath="$PROJECT_DIR$/RpcData.iml" />
+      <module fileurl="file://E:\rpc_android\RpcData\RpcData.iml" filepath="E:\rpc_android\RpcData\RpcData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\rpc_android\RpcData\app\app.iml" filepath="E:\rpc_android\RpcData\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-zxing/lib-zxing.iml" filepath="$PROJECT_DIR$/lib-zxing/lib-zxing.iml" />
+      <module fileurl="file://E:\rpc_android\RpcData\lib-zxing\lib-zxing.iml" filepath="E:\rpc_android\RpcData\lib-zxing\lib-zxing.iml" />
+    </modules>
+  </component>
+</project>

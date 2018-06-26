@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.apac.rpcdata.ui.BootPage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+         android:src="@mipmap/tc2_2x"
+
+        />
+    <ImageView
+
+        android:layout_width="@dimen/px_600"
+        android:layout_height="@dimen/px_400"
+        android:src="@mipmap/tc3_3xx"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+          android:layout_marginTop="@dimen/px_70"
+        android:id="@+id/i_page"
+        />
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:id="@+id/bt_page"
+         android:background="#f62803"
+         android:text="立即体验"
+         android:textColor="@color/white"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="@dimen/px_136"
+         />
+</LinearLayout>

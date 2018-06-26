@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.apac.rpcdata.ui.LoginAcitivy">
+
+
+   <ImageView
+        android:layout_marginTop="@dimen/px_158"
+         android:layout_gravity="center_horizontal"
+         android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:src="@mipmap/login"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号: "
+            android:textColor="@color/gray_666"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/sp_bd_gray_cor"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@color/gray_666"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码:"
+            android:textColor="@color/gray_666"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            style="@style/edit_style"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:hint="确认6位密码"
+            android:maxLength="6"
+            android:inputType="textPassword"
+            android:background="@drawable/sp_bd_gray_cor"
+            />
+
+    </LinearLayout>
+    
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:orientation="horizontal"
+      android:layout_marginTop="@dimen/px_146"
+      >
+
+      <TextView
+          android:id="@+id/tv_login"
+          style="@style/textview_style"
+
+          android:layout_width="@dimen/px_184"
+          android:layout_height="@dimen/px_74"
+          android:text="登录"
+            android:layout_marginLeft="@dimen/px_110"
+           android:padding="10dp"
+          android:gravity="center"
+           android:background="#af00"
+          android:textSize="@dimen/px_25"
+          android:textColor="@color/white"/>
+
+
+      <TextView
+          android:id="@+id/tv_register"
+
+          android:layout_width="@dimen/px_184"
+          android:layout_height="@dimen/px_74"
+
+          android:autoLink="all"
+          android:background="#D4D4D4"
+          android:gravity="center"
+          android:padding="10dp"
+          android:text="新用户注册"
+          android:textColor="@color/white"
+          android:layout_marginLeft="@dimen/px_190"
+           android:layout_marginRight="@dimen/px_110"
+          android:textSize="@dimen/px_25" />
+
+
+
+  </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

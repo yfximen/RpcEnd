@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="东方不败"
+        android:layout_weight="2"
+        android:paddingLeft="30dp"
+        android:id="@+id/pinkNamec"
+        android:textColor="#f00"
+
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="余额"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:id="@+id/numc"
+
+        />
+
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="状态"
+        android:paddingLeft="10dp"
+        android:layout_weight="2"
+        android:id="@+id/statec"
+
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2017-9-9"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:id="@+id/timec"
+        />
+</LinearLayout>

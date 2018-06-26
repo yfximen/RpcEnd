@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--测试 -->
+    <string name="service_host_address">http://rpc.frps.lchtime.cn</string>
+
+    <!--1.4	扫码支付 收款码(pay_qrcode)-->
+    <string name="pay_qrcode">/index.php/rpc/pay_qrcode</string>
+
+    <!--1.5	邀请好友(friend)-->
+    <string name="friend">/index.php/rpc/friend</string>
+
+    <!--1.6	扫码支付 读取支付信息(pay_to)-->
+    <string name="pay_to">/index.php/rpc/pay_to</string>
+
+    <!--1.7	扫码支付 执行支付(pay)   1.9	转账 执行转账-->
+    <string name="pay">/index.php/rpc/pay</string>
+
+    <!--1.8	转账 读取支付信息(transfer_to)-->
+    <string name="transfer_to">/index.php/rpc/transfer_to</string>
+
+    <!--1.10 余额记录(myrpc)-->
+    <string name="myrpc">/index.php/rpc/myrpc</string>
+
+</resources>

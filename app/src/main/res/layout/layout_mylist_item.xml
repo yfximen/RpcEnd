@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1_item"
+        android:textSize="@dimen/px_40"
+        android:text="昵称"
+        android:layout_marginLeft="@dimen/px_28"
+
+        />
+    <TextView
+        android:layout_marginLeft="@dimen/px_500"
+        android:text="修改"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2_item"
+        android:textSize="@dimen/px_40"
+
+        />
+    <ImageView
+        android:layout_marginLeft="@dimen/px_20"
+        android:layout_marginTop="@dimen/px_11"
+        android:layout_width="@dimen/px_40"
+        android:layout_height="@dimen/px_40"
+        android:src="@mipmap/cp_3x"
+        android:layout_marginRight="@dimen/px_28"
+        />
+</LinearLayout>
